@@ -363,7 +363,8 @@ hr{
         flex-basis: 50%;
         margin-bottom: 30px;
     }
-    .about-right-col img{
-    width: 50%;
-}
+    .contact-right-col img{
+        margin-top: 27px;
+        width: 105px;
+    }
 }
