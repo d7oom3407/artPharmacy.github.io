@@ -181,7 +181,10 @@ form input{
 .background{
     background-image: none;
 }
-
+.l input{
+    font-size: 30px;
+    height: 30%;
+}
 
 @media only screen and (max-width: 770px){
     .container{
@@ -195,6 +198,10 @@ form input{
         font-size: 25px;
     }
     
+    .l input{
+        height: 100%;
+    }
+
     .about-left-col{
         flex-basis: 100%;
     }
