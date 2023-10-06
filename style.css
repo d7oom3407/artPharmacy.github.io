@@ -183,10 +183,13 @@ form input{
 }
 .l input{
     font-size: 30px;
-    height: 30%;
+    height: 3lh;
 }
 
 @media only screen and (max-width: 770px){
+    .l input{
+        height: 7lh;
+    }
     .container{
         margin-right: 50px;
         margin-left: 50px;
