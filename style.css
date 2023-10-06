@@ -52,7 +52,7 @@ body{
 /*background-image: linear-gradient(to bottom, #fff,#9B9B9B);*/
 
 #about-us{
-    ackground-image: linear-gradient(black, #1b0152);
+    background-image: linear-gradient(black, #1b0152);
     padding-bottom: 50px;
     padding-top: 50px;
     height: 70lh;
@@ -180,4 +180,43 @@ form input{
 }
 .background{
     background-image: none;
+}
+
+
+@media only screen and (max-width: 770px){
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+    .about-left-col{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+    
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    #table{
+        height: fit-content;
+    }
+    #about-us{
+        height: fit-content;
+    }
+    #banner{
+        height: 10hl;
+    }
 }
